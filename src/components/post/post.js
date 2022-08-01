@@ -2,12 +2,16 @@ import React from 'react';
 import "./post.css";
 
 
-const like = "https://icon-icons.com/icons2/3197/PNG/512/love_like_heart_icon_194836.png";
-const comments = "https://icon-icons.com/icons2/2622/PNG/512/gui_comments_icon_157672.png";
-const retwit = "https://icon-icons.com/icons2/1339/PNG/512/retweet_87545.png";
-const share = "https://icon-icons.com/icons2/2098/PNG/512/share_icon_128757.png";
-const dot = "https://icon-icons.com/icons2/2367/PNG/128/circle_dot_icon_143621.png";
-const accept = "https://icon-icons.com/icons2/159/PNG/256/gtg_ok_accept_apply_22344.png";
+const icons = {
+   like: require("./img/like.png"),
+   comments: require("./img/comments.png"),
+   retweet: require("./img/retweet.png"),
+   share: require("./img/share.png"),
+   dot: require("./img/dot.png"),
+   accept: require("./img/accept.png"),
+
+
+};
 
 
 const Post = ({ author, content, image, date }) => {
@@ -15,34 +19,34 @@ const Post = ({ author, content, image, date }) => {
       <div class="container">
          <div class="post">
             <div class="head">
-               <img class="photo" src={author.photo} />
+               <img class="photo" src={author.photo} alt="author" />
                <div class="headText">
                   <p class="nameAuthor">{author.name}</p>
-                  <img class="ico" src={accept} />
+                  <img class="ico" src={icons.accept} alt="icons_accept" />
                   <span class="nickname">{author.nickname}</span>
-                  <img class="dot" src={dot} />
+                  <img class="dot" src={icons.dot} alt="icons_dot" />
                   <span class="date">{date}</span>
                </div>
                <span class="text">{content}</span>
             </div>
             <div class="main">
-               <img class="contentImage" src={image} />
+               <img class="contentImage" src={image} alt="content" />
             </div>
             <div class="footer">
                <span class="like">
-                  <img class="like" src={like} />
+                  <img class="like" src={icons.like} alt="icons_like" />
                   521
                </span>
                <span class="comments">
-                  <img class="comments" src={comments} />
+                  <img class="comments" src={icons.comments} alt="icons_comments" />
                   64
                </span>
                <span class="retwit">
-                  <img class="retwit" src={retwit} />
+                  <img class="retwit" src={icons.retweet} alt="icons_retweet" />
                   642
                </span>
                <span class="share">
-                  <img class="share" src={share} />
+                  <img class="share" src={icons.share} alt="icons_share" />
                   781
                </span>
             </div>
