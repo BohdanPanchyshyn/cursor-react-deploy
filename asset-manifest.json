@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/cursor-react-deploy/static/css/main.e3fe11b2.css",
+    "main.js": "/cursor-react-deploy/static/js/main.b11a5bcc.js",
+    "static/media/Rutenia.otf": "/cursor-react-deploy/static/media/Rutenia.d3c0f144d0f9efad783b.otf",
+    "index.html": "/cursor-react-deploy/index.html",
+    "main.e3fe11b2.css.map": "/cursor-react-deploy/static/css/main.e3fe11b2.css.map",
+    "main.b11a5bcc.js.map": "/cursor-react-deploy/static/js/main.b11a5bcc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3fe11b2.css",
+    "static/js/main.b11a5bcc.js"
+  ]
+}
