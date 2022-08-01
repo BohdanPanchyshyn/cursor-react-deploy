@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/cursor-react-deploy/static/css/main.e3fe11b2.css",
-    "main.js": "/cursor-react-deploy/static/js/main.736ce6b7.js",
+    "main.js": "/cursor-react-deploy/static/js/main.e3e92c84.js",
     "static/media/Rutenia.otf": "/cursor-react-deploy/static/media/Rutenia.d3c0f144d0f9efad783b.otf",
+    "static/media/accept.png": "/cursor-react-deploy/static/media/accept.2f1a91a8d2c958aeaea0.png",
     "index.html": "/cursor-react-deploy/index.html",
     "main.e3fe11b2.css.map": "/cursor-react-deploy/static/css/main.e3fe11b2.css.map",
-    "main.736ce6b7.js.map": "/cursor-react-deploy/static/js/main.736ce6b7.js.map"
+    "main.e3e92c84.js.map": "/cursor-react-deploy/static/js/main.e3e92c84.js.map"
   },
   "entrypoints": [
     "static/css/main.e3fe11b2.css",
-    "static/js/main.736ce6b7.js"
+    "static/js/main.e3e92c84.js"
   ]
 }
