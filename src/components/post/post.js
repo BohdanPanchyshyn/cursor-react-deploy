@@ -2,12 +2,12 @@ import React from 'react';
 import "./post.css";
 
 
-const like = "https://cdn.icon-icons.com/icons2/3197/PNG/512/love_like_heart_icon_194836.png";
-const comments = "https://cdn.icon-icons.com/icons2/2622/PNG/512/gui_comments_icon_157672.png";
-const retwit = "https://cdn.icon-icons.com/icons2/1339/PNG/512/retweet_87545.png";
-const share = "https://cdn.icon-icons.com/icons2/2098/PNG/512/share_icon_128757.png";
-const dot = "https://cdn.icon-icons.com/icons2/2367/PNG/128/circle_dot_icon_143621.png";
-const accept = "https://cdn.icon-icons.com/icons2/159/PNG/256/gtg_ok_accept_apply_22344.png";
+const like = "https://icon-icons.com/icons2/3197/PNG/512/love_like_heart_icon_194836.png";
+const comments = "https://icon-icons.com/icons2/2622/PNG/512/gui_comments_icon_157672.png";
+const retwit = "https://icon-icons.com/icons2/1339/PNG/512/retweet_87545.png";
+const share = "https://icon-icons.com/icons2/2098/PNG/512/share_icon_128757.png";
+const dot = "https://icon-icons.com/icons2/2367/PNG/128/circle_dot_icon_143621.png";
+const accept = "https://icon-icons.com/icons2/159/PNG/256/gtg_ok_accept_apply_22344.png";
 
 
 const Post = ({ author, content, image, date }) => {
